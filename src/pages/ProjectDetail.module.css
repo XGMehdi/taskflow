@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.loading {
+  padding: 2rem;
+}
+
+.main {
+  padding: 2rem;
+  /* Optionnel : flex: 1; pour qu'il prenne l'espace restant si besoin */
+}
+
+.header {
+  display: flex;
+  gap: 1rem;             /* J'ai ajouté 1rem comme valeur d'espacement standard */
+  margin-bottom: 1.5rem; /* J'ai ajouté 1.5rem pour bien espacer du contenu en dessous */
+  align-items: center;   /* Optionnel : permet de bien centrer le point avec le titre */
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block; /* Assure que les dimensions soient bien respectées */
+}
+
+.info {
+  color: gray; /* Vous pouvez aussi utiliser un code hexadécimal comme #666 ou #888 */
+}
