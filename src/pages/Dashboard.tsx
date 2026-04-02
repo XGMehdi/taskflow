@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../features/auth/AuthContext';
 import api from '../api/axios';
-import Header from '../components/Header';
+import Header from '../components/HeaderMUI';
 import Sidebar from '../components/Sidebar';
 import MainContent from '../components/MainContent';
 import ProjectForm from '../components/ProjectForm';
