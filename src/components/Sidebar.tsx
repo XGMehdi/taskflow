@@ -4,6 +4,7 @@ interface SidebarProps { projects: Project[]; isOpen: boolean; onRename?: (p: Pr
     onDelete?: (id: string) => void;}
 import { NavLink } from 'react-router-dom';
 export default function Sidebar({ projects, isOpen }: SidebarProps) {
+    console.log('Sidebar re-render');
  return (
  <aside className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}>
  <h2 className={styles.title}>Mes Projets</h2>
